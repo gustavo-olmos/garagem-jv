@@ -1,10 +1,10 @@
 # garagem-jv
 
 <h2>sistema para controlar a entrada e saida dos veículos e controlar o valor a pagar conforme o tempo de permanência</h2>
-Porem é um requisito muito importante que o sistema seja o mais simples possível.
+
 Capacidade do estacionamento é variável e deve ser enviada na inncialização da aplicção
 
-Para um carro entrar ou saír no estabelecimento, a sua placa deverá ser fornecida ao sistema,
+Para um carro entrar ou sair no estabelecimento, a sua placa deverá ser fornecida ao sistema,
 caso não houver nenhuma outra entrada em aberto para aquela placa deverá ser exibida a mensagem:
 >> Entrada do veículo de placa: XXX
 
@@ -22,6 +22,3 @@ Caso contrário deverá ser exibida a mensagem:
 Ao realizar a entrada ou saída de veículos do estabelecimento o sistema deverá
 imprimir um relatório das entradas e saídas já realizadas, bem como o tempo que
 cada veículo que já saiu ficou no estabelecimento.
-
-OBS: deverão ser utilizados somente recursos do que foi apresentado neste curso.
-Com exceção da classe LocalDateTime e Math do java e a criação de metodos para organização do condigo que podem ser usados
